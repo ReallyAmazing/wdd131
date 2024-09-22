@@ -1,0 +1,22 @@
+body .div .parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+
+}
+
+.body .div header {
+    padding: 2rem;
+    grid-column: 1/4;
+}
+
+body .div main {
+    grid-column: 2/3;
+}
+
+body .div aside {
+    grid-column: 3/4;
+}
+
+footer {
+    grid-column: 1/4;
+}
