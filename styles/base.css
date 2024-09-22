@@ -46,18 +46,29 @@ main {
     display: flex;
 }
 
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 .content1 {
     background-color: white;
     width: 500px;
-    border: 1px solid #000;
+    border: 1 solid #000;
     border-radius: 10px;
     margin-right: 2.5px;
     display: flex;
-
-
-
 }
 
+
+.card h2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+}
 .card h1 {
     color: black;
     background-color: #bbb;
@@ -75,7 +86,7 @@ main {
 }
 
 
-.content3 {
+.content3 img {
     display: flex;
     float: right;
     box-shadow: 0 0 30px #777;
@@ -83,8 +94,26 @@ main {
     margin-bottom: 5px;
     margin-right: 20px;
     margin-left: 20px;
+    width: 150px;
+    height: 200px;
 }
 
+.place {
+    display: flex;
+    width: 500px;
+}
+
+.flag img{
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+.para p {
+    margin-top: 1px;
+    margin-left: 10px;
+
+}
 .image {
     width: 290px;
     margin-left: 2.5px;
