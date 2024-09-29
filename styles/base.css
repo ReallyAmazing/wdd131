@@ -58,10 +58,15 @@ main {
 }
 
 .card li {
-    font-size:x-large;
+    font-size:large;
+    margin: 10px;
     
 }
 
+.card ul {
+    margin-top: 100px;
+
+}
 .content1 {
     background-color: white;
     width: 500px;
