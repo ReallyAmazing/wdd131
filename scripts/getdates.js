@@ -7,5 +7,3 @@ const today = new Date();
 currentyear.innerHTML = `getFullYear(): <span class="highlight">${today.getFullYear()}</span>`;
 
 
-alert(document.lastModified)
-let olastModif = new Date(document.lastModified)
