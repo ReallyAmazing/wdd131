@@ -142,10 +142,14 @@ footer {
     padding: 10px;
     margin-top: 10px;
     margin-left: 220px;
+    display: block;
+    justify-content: center;
 }
 
-footer p {
-    margin-left: 180px;
+footer  .item1 {
+    margin-left: 200px;
 }
 
-
+footer .item {
+    margin-left: 300px;
+}
