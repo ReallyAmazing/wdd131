@@ -1,10 +1,13 @@
-
+* {
+    justify-content: center;
+}
 
 header {
     background-color: #bbb;
     width: 800px;
+    margin-left: 220px;
     
-    
+
 }
 
 header h1 {
@@ -14,6 +17,7 @@ header h1 {
     padding-bottom: 10px;
     padding-top: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 nav {
@@ -43,12 +47,14 @@ nav ul li {
 }
 
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 505px 300px;
 }
 
 .card {
     border: 1px solid black;
     border-radius: 10px;
+    margin-right: 3px;
 }
 
 .content1 {
@@ -94,8 +100,8 @@ main {
     margin-bottom: 5px;
     margin-right: 20px;
     margin-left: 20px;
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 175px;
 }
 
 .place {
@@ -109,6 +115,10 @@ main {
 
 }
 
+.flag span {
+    margin-left: 20px;
+}
+
 .para p {
     margin-top: 1px;
     margin-left: 10px;
@@ -116,7 +126,7 @@ main {
 }
 .image {
     width: 290px;
-    margin-left: 2.5px;
+    margin-left: 3px;
     border-radius: 10px;
     border: 1px solid#000;
 }
@@ -128,5 +138,24 @@ main {
     padding: 5px;
     border-radius: 10px;
     margin-top: 0;
+    
+}
+
+footer {
+    background-color: #bbb;
+    width: 780px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
     
 }
