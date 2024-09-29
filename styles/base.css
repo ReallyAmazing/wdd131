@@ -29,6 +29,7 @@ nav {
 
 nav a:hover{
     border: 1px solid#fff;
+    color: blue;
 }
 
 nav a {
