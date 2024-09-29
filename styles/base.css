@@ -71,14 +71,14 @@ main {
 .content1 {
     background-color: white;
     width: 500px;
-    border: 1px solid #000;
     border-radius: 10px;
     margin-right: 2.5px;
     display: flex;
 }
 
 
-.card h2 {
+.card h3 {
+    font-size: x-large;
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #000;
@@ -86,7 +86,7 @@ main {
     margin-right: 50px;
     padding: 5px;
 }
-.card h1 {
+.card h2 {
     color: black;
     background-color: #bbb;
     padding: 5px;
@@ -126,8 +126,9 @@ main {
 
 }
 
-.flag span {
+.flag  span {
     margin-left: 20px;
+    font-size: small;
 }
 
 .para p {
