@@ -57,6 +57,11 @@ main {
     margin-right: 3px;
 }
 
+.card li {
+    font-size:x-large;
+    
+}
+
 .content1 {
     background-color: white;
     width: 500px;
@@ -124,22 +129,7 @@ main {
     margin-left: 10px;
 
 }
-.image {
-    width: 290px;
-    margin-left: 3px;
-    border-radius: 10px;
-    border: 1px solid#000;
-}
 
-.image h1 {
-    display: flex;
-    justify-content: center;
-    background-color: #bbb;
-    padding: 5px;
-    border-radius: 10px;
-    margin-top: 0;
-    
-}
 
 footer {
     background-color: #bbb;
