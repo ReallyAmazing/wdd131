@@ -10,7 +10,7 @@ header {
     
 
 }
-header,main {
+header,main, footer {
     margin: 0 auto;
 }
 
@@ -48,13 +48,14 @@ nav a:hover {
 
 
 main img {
-    width: 300px;
+    width: 200px;
 }
 
 main {
     display: grid;
     justify-content: center;
     border: 1px solid black;
+    max-width: 840px;
 
     
 
@@ -91,32 +92,6 @@ footer  .item1 {
 footer .item {
     display: block;
     font-size: medium;
-}
-/*larger views*/
-@media (min-width: 640px){
-    header {
-        display: flex;
-        text-align: center;
-        justify-content: space-between;
-    }
-
-    nav {
-        justify-content: flex-end;
-        flex-direction: row;
-    }
-
-    nav a {
-        flex: 1 1 100%;
-    }
-
-    .images {
-        display: grid;
-        grid-template-columns: 200px 200px 200px;
-        grid-gap: 150px;
-        justify-content: center;
-        
-    }
-
 }
 
 

@@ -1,0 +1,35 @@
+/*larger views*/
+@media (min-width: 640px){
+    header {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        max-width: 800px;
+    }
+
+    nav {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-gap: 50px;
+        justify-content: center;
+        
+    }
+
+    
+footer {
+    background-color: cadetblue;
+    padding: 5px;
+    display: block;
+    max-width: 840px;
+}
+
+}
