@@ -68,13 +68,13 @@ main h2 {
 
 
 
-p {
+figcaption {
     display: block;
     text-align: center;
     font-size: smaller;
     margin-top: 0;
-    color: burlywood
-    ;
+    color: burlywood;
+	
 }
 
 footer {
@@ -86,12 +86,15 @@ footer {
 
 footer  .item1 {
     font-size: medium;
+	display: block;
+	text-align: center;
 
 }
 
 footer .item {
     display: block;
     font-size: medium;
+	text-align: center;
 }
 
 #menu {
