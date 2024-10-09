@@ -20,11 +20,11 @@
         display: grid;
         grid-template-columns: 200px 200px 200px;
         grid-gap: 50px;
-        justify-content: center;
-        margin-right: 75px;
-    
+        
         
     }
+
+
 
     
 footer {
