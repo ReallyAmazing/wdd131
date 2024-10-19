@@ -10,7 +10,7 @@ main {
 .cover img {
     display: flex;
     justify-content: center;
-    width: 250px;
+    width: 460px;
 }
 
 main .data {
