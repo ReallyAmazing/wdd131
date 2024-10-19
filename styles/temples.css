@@ -16,37 +16,6 @@ header,main, footer {
 
 
 
-
-
-/*
-nav a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
-}
-
-nav {
-    background-color: burlywood;
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-
-nav a:hover {
-    color: aqua;
-    text-decoration: underline double;
-    background-color: cadetblue;
-}
-
-.active {
-    color: yellow;
-}
-*/
-
-
 main img {
 	width: 200px;
 }

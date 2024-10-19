@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Place">
+    <meta name="author" content="Michael Macababbad">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Place</title>
+    <style>
+        .weather h2::after{
+            content: url(images/weather.svg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Philippines</h1>
+    </header>
+    <div class="space">
+    </div>
+    <main>
+        <div class="input">
+            <div class="cover">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="images/eagle.jpg" />
+                    <source media="(min-width: 800px)" srcset="images/eagle.jpg" />
+                    <img src="images/eagle.jpg" alt="" />
+                </picture>
+            </div>
+            <div class="data">
+                <h2>
+                    Data
+                </h2>
+            </div>
+            <div class="info">
+                <p>
+                    <b>Capital:</b> Manila
+                </p>
+                <p>
+                    <b>Official languages:</b> Filipino, English
+                </p>
+                <p>
+                    <b>Currency:</b> Philippine peso
+                </p>
+                <p>
+                    <b>Population:</b> 117.3 million (2023) World Bank
+                </p>
+                <p>
+                    <b>Dialing code:</b> +63
+                </p>
+            </div>
+            <div class="weather">
+                <h2>
+                     Weather
+                </h2> 
+            </div>
+            <div class="par">
+                <p>
+                    DAISY ANEE SUPER PANGIT
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="item1"><span id="currentyear"></span>🐂 Michael Herradura Macababbad 🐂 Philippines<p>
+        <p class="item" > <span id="lastModified"></span></p>
+    </footer>
+
+    
+</body>
+</html>
